@@ -1,10 +1,9 @@
 '''
 Ejercicio 3:
-Hacer un programa que pida un carácter e indique si es una vocal o no
+Hacer un programa para intercambiar el valor de 2 variables
 '''
-
-letra=input("Escriba un caracter: ").lower() #upper() transformar a mayuscula
-if letra=='a' or letra=='e' or letra=='i' or letra=='o' or letra=='u':
-    print("Es una vocal")
-else:
-    print("No es una vocal")
+a=input("a--> ")
+b=input("b--> ")
+a,b=b,a
+print(f"El nuevo valor de a es: {a}")
+print(f"El nuevo valor de n es: {b}")
